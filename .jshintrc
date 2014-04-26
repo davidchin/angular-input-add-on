@@ -1,0 +1,41 @@
+{
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "noempty": false,
+  "nonew": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": false,
+  "strict": true,
+  "trailing": true,
+
+  "eqnull": true,
+  "expr": true,
+  "sub": true,
+
+  "browser": true,
+  "jquery": true,
+  "predef": [
+    "angular",
+    "console",
+
+    "module",
+    "inject",
+
+    "jasmine",
+    "describe",
+    "it",
+    "beforeEach",
+    "afterEach",
+    "expect",
+    "spyOn"
+  ]
+}
