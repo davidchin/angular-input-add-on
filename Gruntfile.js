@@ -63,8 +63,14 @@ module.exports = function (grunt) {
     bump: {
       options: {
         files: ['package.json', 'bower.json'],
-        commitFiles: ['package.json', 'bower.json'],
-        pushTo: 'origin'
+        commitFiles: ['-a'],
+        push: false
+      }
+    },
+
+    karma: {
+      unit: {
+        configFile: 'karma.conf.js'
       }
     }
   });
@@ -77,6 +83,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-bump');
   grunt.loadNpmTasks('grunt-ngmin');
+  grunt.loadNpmTasks('grunt-karma');
 
   // Register custom tasks
   grunt.registerTask('test', ['karma']);
