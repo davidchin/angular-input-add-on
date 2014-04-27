@@ -1,5 +1,5 @@
 /*!
- * angular-input-add-on.js v0.0.0
+ * angular-input-add-on.js v0.0.1
  * http://davidchin.me
  * Copyright 2014 David Chin
  * MIT License
